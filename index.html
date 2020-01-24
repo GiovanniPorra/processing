@@ -21,10 +21,10 @@
              
              
               noFill();
-              circle(0, 0, radius*2);
+              ellipse(0, 0, radius*2, radius*2);
              
               fill(c);
-              circle(radius, 0, size);
+              ellipse(radius, 0, size, size);
              
               popMatrix();
              
@@ -38,10 +38,10 @@
              
              
               noFill();
-              circle(0, 0, radius*2);
+              ellipse(0, 0, radius*2, radius*2);
              
               fill(c);
-              circle(radius, 0, size);
+              ellipse(radius, 0, size, size);
              
               planet(radius, 0, 1.2, 15, #455A64, 5);
              
@@ -56,17 +56,17 @@
              
              
               noFill();
-              circle(0, 0, radius*2);
+              ellipse(0, 0, radius*2, radius*2);
              
-              circle(radius, 0, size+10);
-              circle(radius, 0, size+11);
-              circle(radius, 0, size+12);
-              circle(radius, 0, size+13);
-              circle(radius, 0, size+14);
-              circle(radius, 0, size+15);
+              ellipse(radius, 0, size+10, size+10);
+              ellipse(radius, 0, size+11, size+11);
+              ellipse(radius, 0, size+12, size+12);
+              ellipse(radius, 0, size+13, size+13);
+              ellipse(radius, 0, size+14, size+14);
+              ellipse(radius, 0, size+15, size+15);
              
               fill(c);
-              circle(radius, 0, size);
+              ellipse(radius, 0, size, size);
              
               popMatrix();
             }
@@ -75,7 +75,7 @@
               background(26, 35, 126);
              
               fill(#E65100);
-              circle(400, 300, 130);
+              ellipse(400, 300, 130, 130);
              
               planet(400, 300, 1.2, 90, #455A64, 10);
               planet(400, 300, 1.8, 110, #FF5722, 15);
@@ -87,6 +87,8 @@
               planet(400, 300, 1.4, 290, #2196F3, 22);
              
             }
+
+
             
         </script>
         <canvas></canvas>
